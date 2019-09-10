@@ -1,0 +1,109 @@
+# Site settings
+title: A Chang Blog
+SEOTitle: 阿畅的博客 | A Chang Blog
+header-img: img/post-bg-desk.jpg
+email: zhaochenxiaohtc@gmail.com
+description: "Every failure is leading towards success."
+keyword: "A Chang, A Chang Blog, 阿畅的博客, chenxiao-zhao, 赵晨枭, PHP, Python, C++"
+url: "http://chenxiao-zhao.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/chenxiao-zhao/chenxiao-zhao.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Goals determine what you going to be!"
+sidebar-avatar: /img/about-A-Chang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+#zhihu_username:     qiubaiying
+github_username:    chenxiao-zhao
+#facebook_username:  baiying.qiu.7
+#jianshu_username:   e71990ada2fd
+#twitter_username:   qiubaiying
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 51e6fa45c45e50ffd575                            #生成的clientID
+  clientSecret: 6bbb663e5568c7dee56f33f96a0595e21e58d1f1    #生成的clientSecret
+  repo: chenxiao-zhao.github.io    #仓库名称
+  owner: chenxiao-zhao    #github用户名
+  admin: chenxiao-zhao
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 7df771c9251cd2d5cc7fac6ecf99dc55
+
+# Google Analytics
+ga_track_id: 'UA-146354358-1'            # Format: UA-xxxxxx-xx
+ga_domain: blog.achang.tech               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Stack Overflow",
+        href: "https://stackoverflow.com/"
+    },
+    {
+        title: "LEo的网络日志",
+        href: "http://reborncodinglife.com"
+    }
+]
