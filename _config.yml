@@ -99,8 +99,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Stack Overflow",
-        href: "https://stackoverflow.com/"
+        title: "阮一峰的个人网站",
+        href: "http://www.ruanyifeng.com"
     },
     {
         title: "LEo的网络日志",
