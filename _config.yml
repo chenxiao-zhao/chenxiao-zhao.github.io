@@ -105,5 +105,9 @@ friends: [
     {
         title: "LEo的网络日志",
         href: "http://reborncodinglife.com"
+    },
+    {
+        title: "晨昊的博客",
+        href: "https://haochen233.github.io"
     }
 ]
