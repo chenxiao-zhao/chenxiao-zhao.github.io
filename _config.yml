@@ -4,7 +4,7 @@ SEOTitle: 阿畅的博客 | A Chang Blog
 header-img: img/post-bg-desk.jpg
 email: zhaochenxiaohtc@gmail.com
 description: "Every failure is leading towards success."
-keyword: "A Chang, A Chang Blog, 阿畅的博客, chenxiao-zhao, 赵晨枭, PHP, Python, C++"
+keyword: "A Chang, A Chang Blog, 阿畅的博客, chenxiao-zhao, 赵晨枭, PHP,Go, Solidity"
 url: "http://chenxiao-zhao.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/chenxiao-zhao/chenxiao-zhao.github.io.git" # you code repository
